@@ -9,9 +9,7 @@ import App from "./App";
 import "./index.css";
 
 // Registering Syncfusion license key
-registerLicense(
-  "ORg4AjUWIQA/Gnt2VVhhQlFaclhJXGFWfVJpTGpQdk5xdV9DaVZUTWY/P1ZhSXxRdkBgWX5WdHFRTmhdUkI="
-);
+registerLicense(process.env.REACT_APP_SYNCFUSION_KEY);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
