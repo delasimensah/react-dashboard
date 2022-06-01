@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className={currentMode === "Dark" ? "dark" : ""}>
-      <div className="relative flex dark:bg-main-dark-bg">
+      <div className="relative flex overflow-hidden dark:bg-main-dark-bg">
         {/* theme settings icon */}
         <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
           <TooltipComponent content="Settings" position="Top">
